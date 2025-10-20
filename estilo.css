@@ -1,0 +1,17 @@
+body {
+    background-color: orchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+#estoqueAtual {
+    font-weight: bold;
+    color: blue;
+}
+#quantidade {
+    margin-bottom: 10px;
+}

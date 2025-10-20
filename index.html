@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste de Integração (Vendas/Estoque)</title>
+    <link rel="stylesheet" href="estilo.css">
+</head><br>
+<body>
+    <div class="container">
+        <h1>Módulo de Vendas</h1>
+        
+        <p>Estoque Atual do Item A: <span id="estoqueAtual">10</span></p>
+        
+        <label for="quantidade">Qtd. a Comprar (Item A):</label>
+        <input type="number" id="quantidade" min="1" value="1">
+        
+        <button id="criarPedidoBtn">Criar Pedido</button>
+        
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
